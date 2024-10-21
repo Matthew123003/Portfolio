@@ -1,5 +1,8 @@
 "use client";
 
+import {FaJava, FaPython, FaJs, FaNodeJs, FaReact, FaHtml5, FaCss3, FaGithub} from "react-icons/fa";
+import {SiSpring, SiSpringboot, SiSpringsecurity, SiMysql, SiTailwindcss, SiNextdotjs} from "react-icons/si";
+
 import {BsArrowDownRight} from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";

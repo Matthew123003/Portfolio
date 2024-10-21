@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import {FaJava, FaPython, FaJs, FaNodeJs, FaReact, FaHtml5, FaCss3, FaGithub} from "react-icons/fa";
+import {SiSpring, SiSpringboot, SiSpringsecurity, SiMysql, SiTailwindcss, SiNextdotjs} from "react-icons/si";
+
 
 // components
 import Social from "@/components/Social";
@@ -49,6 +52,23 @@ const Home = () => {
             <Photo />
           </div>
         </div>
+      </div>
+      {/* New icon bar */}
+      <div className="w-full bg-primary flex justify-center items-center gap-8">
+          <FaJava className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaPython className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaJs className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiSpring className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiSpringboot className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiSpringsecurity className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiMysql className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaNodeJs className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiNextdotjs className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaReact className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaHtml5 className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaCss3 className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiTailwindcss className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaGithub className="text-white text-2xl hover:text-accent transition-all duration-300" /> 
       </div>
       <Stats />
     </section>
