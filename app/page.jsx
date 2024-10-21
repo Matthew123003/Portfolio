@@ -24,7 +24,7 @@ const Home = () => {
               <span className="text-accent">Matt Kramer</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            A versatile developer skilled in Java, Python, and JavaScript, specializing in scalable web apps with React and Node.js. Proficient in Agile, unit testing, MySQL, SQL Server, HTML, CSS, D3.js, Docker, APIs, and CDNs for performance optimization.
+            A versatile software developer skilled in Java, Python, and JavaScript, specializing in scalable web apps with React and Node.js. Proficient in Agile, unit testing, MySQL, SQL Server, HTML, CSS, D3.js, Docker, APIs, and CDNs for performance optimization.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
