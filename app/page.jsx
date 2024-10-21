@@ -24,7 +24,7 @@ const Home = () => {
               <span className="text-accent">Matt Kramer</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Versatile software developer skilled in Java, Python, and JavaScript, focused on scalable web apps with React and Node.js. Proficient in Agile, unit testing, MySQL, and SQL Server. Experienced in HTML, CSS, D3.js, and Docker, with expertise in APIs and CDNs for optimized performance.
+            A versatile developer skilled in Java, Python, and JavaScript, specializing in scalable web apps with React and Node.js. Proficient in Agile, unit testing, MySQL, SQL Server, HTML, CSS, D3.js, Docker, APIs, and CDNs for performance optimization.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -54,7 +54,7 @@ const Home = () => {
         </div>
       </div>
       {/* New icon bar */}
-      <div className="w-full bg-primary flex justify-center items-center gap-8">
+      <div className="w-full bg-primary flex justify-center gap-8">
           <FaJava className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaPython className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaJs className="text-white text-2xl hover:text-accent transition-all duration-300" />
