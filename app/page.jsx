@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </div>
       {/* New icon bar */}
-      <div className="w-full bg-primary flex justify-center gap-2">
+      <div className="w-full bg-primary flex justify-center gap-1">
           <FaJava className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaPython className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaJs className="text-white text-2xl hover:text-accent transition-all duration-300" />
