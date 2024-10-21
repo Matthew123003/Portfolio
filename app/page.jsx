@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import {FaJava, FaPython, FaJs, FaNodeJs, FaReact, FaHtml5, FaCss3, FaGithub} from "react-icons/fa";
-import {SiSpring, SiSpringboot, SiSpringsecurity, SiMysql, SiTailwindcss, SiNextdotjs, SiHibernate, SiJunit5, SiJasmine, SiJest, SiApachemaven, SiApachekafka, SiSqlite, SiPostman, SiSass, SiBootstrap, SiJquery, SiJson, SiJsonwebtokens, SiDocker, SiIntellijidea, SiVisualstudiocode, SiAndroidstudio, SiExpo, SiWebstorm, SiD3Dotjs} from "react-icons/si";
+import {SiSpring, SiSpringboot, SiSpringsecurity, SiMysql, SiTailwindcss, SiNextdotjs, SiHibernate, SiJunit5, SiJasmine, SiJest, SiApachemaven, SiApachekafka, SiSqlite, SiPostman, SiSass, SiBootstrap, SiJquery, SiJson, SiJsonwebtokens, SiDocker, SiIntellijidea, SiVisualstudiocode, SiAndroidstudio, SiExpo, SiWebstorm, SiD3Dotjs, SiZsh} from "react-icons/si";
 
 // components
 import Social from "@/components/Social";
@@ -68,6 +68,7 @@ const Home = () => {
           <SiSpringboot className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiHibernate className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiMysql className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiZsh className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaNodeJs className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiExpo className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiNextdotjs className="text-white text-2xl hover:text-accent transition-all duration-300" />
