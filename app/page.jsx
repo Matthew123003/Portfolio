@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import {FaJava, FaPython, FaJs, FaNodeJs, FaReact, FaHtml5, FaCss3, FaGithub} from "react-icons/fa";
-import {SiSpring, SiSpringboot, SiSpringsecurity, SiMysql, SiTailwindcss, SiNextdotjs} from "react-icons/si";
-
+import {SiSpring, SiSpringboot, SiSpringsecurity, SiMysql, SiTailwindcss, SiNextdotjs, SiHibernate, SiJunit5, SiJasmine, SiJest, SiApachemaven, SiApachekafka, SiSqlite, SiPostman, SiSass, SiBootstrap, SiJquery, SiJson, SiJsonwebtokens, SiDocker, SiIntellijidea, SiVisualstudiocode, SiAndroidstudio, SiExpo, SiWebstorm, SiD3Dotjs} from "react-icons/si";
 
 // components
 import Social from "@/components/Social";
@@ -54,21 +53,38 @@ const Home = () => {
         </div>
       </div>
       {/* New icon bar */}
-      <div className="w-full bg-primary flex justify-center gap-8">
+      <div className="w-full bg-primary flex justify-center gap-2">
           <FaJava className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaPython className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaJs className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiJson className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiJsonwebtokens className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiJunit5 className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiJasmine className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiJest className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiApachemaven className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiApachekafka className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiSpring className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiSpringboot className="text-white text-2xl hover:text-accent transition-all duration-300" />
-          <SiSpringsecurity className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiHibernate className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiMysql className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaNodeJs className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiExpo className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiNextdotjs className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaReact className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaHtml5 className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <FaCss3 className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiSass className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiBootstrap className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiJquery className="text-white text-2xl hover:text-accent transition-all duration-300" />
           <SiTailwindcss className="text-white text-2xl hover:text-accent transition-all duration-300" />
-          <FaGithub className="text-white text-2xl hover:text-accent transition-all duration-300" /> 
+          <SiD3Dotjs className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <FaGithub className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiPostman className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiDocker className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiIntellijidea className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiVisualstudiocode className="text-white text-2xl hover:text-accent transition-all duration-300" />
+          <SiAndroidstudio className="text-white text-2xl hover:text-accent transition-all duration-300" /> 
       </div>
       <Stats />
     </section>
