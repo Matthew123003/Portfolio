@@ -111,7 +111,7 @@ const experience = {
 const education = {
   icon: <FaSchool />,
   title: "My Education",
-  description: "Through multiple certifications, I have built a solid foundation in full stack software development and computer science, with expertise in both front-end and back-end technologies.",
+  description: "Through multiple certifications representing 2700 hours of work, I have built a solid foundation in full stack software development and computer science, with expertise in both front-end and back-end technologies.",
   items: [
     {
       institution: "FreeCodeCamp.org",
