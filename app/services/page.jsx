@@ -10,13 +10,13 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Back End Development",
+    title: "Backend Development",
     description: "Building and maintaining server-side logic, databases (MySQL, SQL Server), and APIs using Java, Python, Spring Boot, and Node.js.",
     href: "",
   },
   {
     num: "02",
-    title: "Front End Development",
+    title: "Frontend Development",
     description: "Creating dynamic and responsive user interfaces using React.js, Next.js, Tailwind CSS, HTML, CSS, and D3.js.",
     href: "",
   },

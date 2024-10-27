@@ -52,7 +52,7 @@ const about = {
 const experience = {
     icon: <FaLaptopCode />,
     title: "My Experience",
-    description: "With 2700 certified coding hours, I specialize in delivering efficient solutions across front-end and back-end technologies, databases, and APIs, using Agile and testing practices for reliable software.",
+    description: "With 2700 certified coding hours, I specialize in delivering efficient solutions across frontend and backend technologies, databases, and APIs, using Agile and testing practices for reliable software.",
     items: [
       {
         company: "Target",
@@ -116,7 +116,7 @@ const experience = {
 const education = {
   icon: <FaSchool />,
   title: "My Education",
-  description: "Through multiple certifications representing 2700 hours of work, I have built a solid foundation in full stack software development and computer science, with expertise in both front-end and back-end technologies.",
+  description: "Through multiple certifications representing 2700 hours of work, I have built a solid foundation in full stack software development and computer science, with expertise in both frontend and backend technologies.",
   items: [
     {
       institution: "FreeCodeCamp.org",
@@ -174,7 +174,7 @@ const education = {
 // skills data
 const skills = {
     title: "My Skills",
-    description: "Proficient in a diverse range of skills, including Java, JavaScript, Python, React, Node.js, and MySQL, with expertise in building scalable applications. Strong in front-end and back-end technologies, testing frameworks like JUnit and Jest, and experienced with tools like Docker, Git, and Postman for efficient development.",
+    description: "Proficient in a diverse range of skills, including Java, JavaScript, Python, React, Node.js, and MySQL, with expertise in building scalable applications. Strong in frontend and backend technologies, testing frameworks like JUnit and Jest, and experienced with tools like Docker, Git, and Postman for efficient development.",
     skillList: [
         {
           icon: <FaJava />,
