@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 // about data
 const about = {
     title: "About me",
-    description: "A motivated and resourceful software developer committed to excellence in building intricate, aesthetic applications.",
+    description: "A motivated and resourceful software developer committed to excellence in building intricate, aesthetic applications with expertise in frontend, backend, and full stack software development.",
     info: [
       {
         fieldName: "Name",
