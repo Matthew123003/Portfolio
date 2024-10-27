@@ -55,6 +55,11 @@ const experience = {
     description: "With 2700 certified coding hours, I specialize in delivering efficient solutions across front-end and back-end technologies, databases, and APIs, using Agile and testing practices for reliable software.",
     items: [
       {
+        company: "Target",
+        position: "Automation Technician",
+        duration: "Nov 2024 - Present",
+      },
+      {
         company: "Freelance",
         position: "Junior Full Stack Developer",
         duration: "Jun 2024 - Present",
