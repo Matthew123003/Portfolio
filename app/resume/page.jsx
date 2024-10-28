@@ -61,7 +61,7 @@ const experience = {
       },
       {
         company: "Freelance",
-        position: "Junior Full Stack Developer",
+        position: "Full Stack Developer",
         duration: "Jun 2024 - Present",
       },
       {
