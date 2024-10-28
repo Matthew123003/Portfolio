@@ -28,7 +28,9 @@ npm list -g --depth=0
 list all global npm dependencies
 
 /******************************************************************/
+VERCEL DEPLOYED SITE URL
 
+https://portfolio-one-sigma-88.vercel.app/
 
 /******************************************************************/
 
