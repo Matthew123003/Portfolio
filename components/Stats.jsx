@@ -16,7 +16,7 @@ const stats = [
         text: "Technologies Learned",
     },
     {
-        num: "2700",
+        num: "2800",
         text: "Certified Coding Hours",
     },
 ]
