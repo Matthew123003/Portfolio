@@ -45,7 +45,7 @@ const projects = [
       num: "04",
       category: "full stack",
       title: "FreeCodeCamp Course Work",
-      description: "A complete library of all coursework and projects completed to obtain my multiple certifications.",
+      description: "A complete library of all coursework and projects completed to obtain my multiple certifications. University of Michigan coursework can be found here as well.",
       stack: [ { name: "React.js" }, { name: "Redux" }, { name: "SASS" }, { name: "BootStrap" }, { name: "jQuery" }, { name: "JavaScript" }, { name: "Python" }, { name: "HTML" }, { name: "CSS" }, { name: "D3.js" }, { name: "SVG" }, ],
       image: "/assets/work/FCC01.png",
       live: "",
