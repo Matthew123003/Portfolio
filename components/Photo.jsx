@@ -26,7 +26,7 @@ const Photo = () => {
                        absolute" 
                        >
                 <Image 
-                src="/assets/MattCircle02.png" 
+                src="/assets/MattCircle01.png" 
                 priority 
                 quality={100} 
                 fill 
