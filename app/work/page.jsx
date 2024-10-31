@@ -77,7 +77,7 @@ const projects = [
       title: "Portfolio",
       description: "My portfolio, showcasing my skills in dynamic web design and commitment to making excellent applications.",
       stack: [ { name: "Next.js" }, { name: "TailwindCSS" }, { name: "Framer Motion" } ],
-      image: "/assets/work/MattPortfolio01.png",
+      image: "/assets/work/PortfolioProject02.png",
       live: "",
       github: "https://github.com/Matthew123003/Portfolio",
     },
