@@ -130,7 +130,7 @@ const education = {
     },
     {
       institution: "FreeCodeCamp.org",
-      degree: "Advanced Python Certification",
+      degree: "Python Certification",
       duration: "Oct 2024",
     },
     {
