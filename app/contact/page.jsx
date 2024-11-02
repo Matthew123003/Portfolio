@@ -28,57 +28,6 @@ const info = [
 ];
 
 const Contact = () => {
-  // Step 1: Set up state for form inputs
-  const [formData, setFormData] = useState({
-    firstname: '',
-    lastname: '',
-    email: '',
-    phone: '',
-    service: '',
-    message: '',
-  });
-
-  // Step 2: Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault(); // Prevent default form submission
-
-    try {
-      // Send email using EmailJS
-      await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
-        firstname: formData.firstname,
-        lastname: formData.lastname,
-        email: formData.email,
-        phone: formData.phone,
-        service: formData.service,
-        message: formData.message,
-      }, 'YOUR_USER_ID');
-
-      // Clear the form after successful submission
-      setFormData({
-        firstname: '',
-        lastname: '',
-        email: '',
-        phone: '',
-        service: '',
-        message: '',
-      });
-
-      alert("Message sent successfully!"); // Optional: success message
-    } catch (error) {
-      console.error('Failed to send email:', error);
-      alert("Failed to send message. Please try again."); // Optional: error message
-    }
-  };
-
-  // Step 3: Update input values and handle selection change
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-  
   return (
     <motion.section 
         initial={{opacity: 0}} 
