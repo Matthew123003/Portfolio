@@ -124,11 +124,6 @@ const education = {
       duration: "Aug 2024 - Present",
     },
     {
-      institution: "University of Michigan",
-      degree: "Python Fundamentals Certification",
-      duration: "Nov 2024",
-    },
-    {
       institution: "FreeCodeCamp.org",
       degree: "Python Certification",
       duration: "Oct 2024",
