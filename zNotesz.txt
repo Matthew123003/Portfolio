@@ -34,6 +34,32 @@ https://portfolio-one-sigma-88.vercel.app/
 
 /******************************************************************/
 
+In Next.js, `"use client";` is a directive placed at the top of a file 
+to indicate that the component should be treated as a client-side 
+component. Here’s how it impacts your portfolio project:
+
+1. **Client-Side Rendering**: By default, Next.js uses server components
+ for improved performance. With `"use client";`, the component renders 
+ on the client side, allowing the use of browser-only features like 
+ state, effects (e.g., `useState`, `useEffect`), and certain libraries 
+ that rely on client-side JavaScript (e.g., animations with 
+ `framer-motion` or interactivity from "react-icons").
+
+2. **Scope of Usage**: This directive applies to the file it’s declared 
+in, making everything within that file a client-side component. If any 
+imported components within that file also need to be client-rendered,
+you’d either mark them with `"use client";` or manage the imports to 
+keep the interactive elements client-side.
+
+3. **Client-Side Dependencies**: With components like "react-icons" and
+ `framer-motion` for animations, `"use client";` ensures they function 
+ correctly, as these libraries need the browser environment to execute 
+ animations and render icons responsively.
+
+Using `"use client";` in your portfolio is essential for enabling 
+dynamic UI effects, tooltips, and scroll interactions, creating an 
+engaging experience that fully leverages the client-side rendering
+ model.
 
 /******************************************************************/
 
