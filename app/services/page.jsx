@@ -28,8 +28,8 @@ const services = [
   },
   {
     num: "04",
-    title: "API Integration & Microservices",
-    description: "Designing and integrating APIs, working with JSON, Axios, and implementing microservices architectures with tools like Docker and Kubernetes.",
+    title: "ServiceNow",
+    description: "Utilized multiple modules to make seamless applications, performed System Administration, and development.",
     href: "",
   },
 ]
