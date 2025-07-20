@@ -55,9 +55,14 @@ const experience = {
     description: "With 2700 certified coding hours, I specialize in delivering efficient solutions across frontend and backend technologies, databases, and APIs, using Agile and testing practices for reliable software.",
     items: [
       {
+        company: "Mission AI Consulting",
+        position: "Software Developer",
+        duration: "Jul 2025 - Present",
+      },
+      {
         company: "Target",
         position: "Automation Technician",
-        duration: "Nov 2024 - Present",
+        duration: "Nov 2024 - June 2025",
       },
       {
         company: "Freelance",
