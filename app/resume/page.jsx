@@ -124,6 +124,16 @@ const education = {
   description: "Through multiple certifications representing 2700 hours of work, I have built a solid foundation in full stack software development and computer science, with expertise in both frontend and backend technologies.",
   items: [
     {
+      institution: "ServiceNow University",
+      degree: "Certified System Administrator",
+      duration: "Oct 2025",
+    },
+    {
+      institution: "ServiceNow University",
+      degree: "Automated Test Framework Micro-Certification",
+      duration: "Oct 2025",
+    },
+    {
       institution: "FreeCodeCamp.org",
       degree: "Front End Development Libraries Certification",
       duration: "Aug 2024 - Present",
