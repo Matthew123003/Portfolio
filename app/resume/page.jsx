@@ -125,6 +125,11 @@ const education = {
   items: [
     {
       institution: "ServiceNow University",
+      degree: "Certified Application Developer",
+      duration: "Nov 2025",
+    },
+    {
+      institution: "ServiceNow University",
       degree: "Certified System Administrator",
       duration: "Oct 2025",
     },
