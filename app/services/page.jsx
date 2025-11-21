@@ -29,7 +29,7 @@ const services = [
   {
     num: "04",
     title: "ServiceNow",
-    description: "Utilized multiple modules to make seamless applications, performed System Administration, and development.",
+    description: "Utilized multiple modules to make seamless applications, performed System Administration, Development, and Implementation.",
     href: "",
   },
 ]
