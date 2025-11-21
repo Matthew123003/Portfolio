@@ -125,12 +125,12 @@ const education = {
   items: [
     {
       institution: "ServiceNow University",
-      degree: "Certified Application Developer",
+      degree: "Certified Implementation Specialist - ITSM",
       duration: "Dec 2025",
     },
     {
       institution: "ServiceNow University",
-      degree: "Certified Implementation Specialist - ITSM",
+      degree: "Certified Implementation Specialist - Data Foundations",
       duration: "Dec 2025",
     },
     {
