@@ -126,7 +126,7 @@ const education = {
     {
       institution: "ServiceNow University",
       degree: "Certified Implementation Specialist - ITSM",
-      duration: "Dec 2025",
+      duration: "Jan 2026",
     },
     {
       institution: "ServiceNow University",
