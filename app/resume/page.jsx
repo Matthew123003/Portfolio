@@ -125,13 +125,28 @@ const education = {
   items: [
     {
       institution: "ServiceNow University",
+      degree: "Suite Certification - ITSM Professional Plus",
+      duration: "Oct 2026",
+    },
+    {
+      institution: "ServiceNow University",
+      degree: "Suite Certification - ITSM Professional",
+      duration: "Oct 2026",
+    },
+    {
+      institution: "ServiceNow University",
       degree: "Certified Implementation Specialist - ITSM",
-      duration: "Jan 2026",
+      duration: "Oct 2026",
+    },
+    {
+      institution: "ServiceNow University",
+      degree: "Suite Certification - Data Foundations Professional",
+      duration: "Mar 2026",
     },
     {
       institution: "ServiceNow University",
       degree: "Certified Implementation Specialist - Data Foundations",
-      duration: "Dec 2025",
+      duration: "Mar 2026",
     },
     {
       institution: "ServiceNow University",
